@@ -1,6 +1,6 @@
 FROM php:7.1-apache
 
-MAINTAINER Guillaum Leclerc guill.bout@gmail.com
+MAINTAINER Guillaume Leclerc guill.bout@gmail.com
 
 RUN apt-get update && apt-get install -y \
     git unzip libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng-dev \
